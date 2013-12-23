@@ -1,0 +1,37 @@
+.blue-border {
+  border: solid 1px #0083a2;
+}
+.rounded {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.actions {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: solid 1px #0083a2;
+  padding: 8px 0px;
+  margin: 0px;
+  text-align: center;
+}
+.actions li {
+  list-style-type: none;
+}
+.actions a {
+  text-decoration: none;
+  font-size: 16px;
+}
+.actions .current a {
+  color: #333333;
+  cursor: default;
+}
+.top-submenu .current a {
+  color: #666666;
+  cursor: default;
+}
+.top-submenu .current a:hover {
+  color: #666666;
+  cursor: default;
+  background: none;
+}

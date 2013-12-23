@@ -1,0 +1,23 @@
+.legend-aux {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #aaa;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.file-name p {
+  text-align: right;
+  color: #EEE;
+  font-size: 14px;
+  line-height: 24px;
+}
+.compile-single {
+  padding-top: 3px;
+}
+.compile-all {
+  margin-top: 20px;
+}

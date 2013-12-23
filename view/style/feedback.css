@@ -1,0 +1,93 @@
+.blue-border {
+  border: solid 1px #0083a2;
+}
+.rounded {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.feedback-menu {
+  text-align: center;
+  background-color: #1ec81e;
+  height: 22px;
+  color: #CCC;
+}
+.feedback-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3c3c3c;
+}
+.feedback-menu a:hover {
+  color: #0a0a0a;
+}
+.feedback-frame {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: solid 1px #1ec81e;
+  background-color: #1ec81e;
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+}
+.feedback-empty .feedback-menu {
+  background-color: #646464;
+}
+.feedback-empty {
+  border: solid 1px #646464;
+}
+.feedback-separator {
+  height: 10px;
+  width: 100%;
+  clear: both;
+}
+.contentHolder {
+  position: relative;
+  margin: 0px auto;
+  padding: 0 0 0 0;
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+}
+.contentHolder .content {
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+.spacer {
+  text-align: left;
+}
+.error-info,
+.success-info {
+  padding: 0 15px 0 5px;
+  margin-bottom: 2px;
+}
+.error-info a,
+.success-info a {
+  padding-right: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+.success-info {
+  border: solid 1px #32c832;
+  background-color: #64ff64;
+}
+.success-info a {
+  color: #003200;
+}
+.error-info {
+  border: solid 1px #ff9696;
+  background-color: #ff6464;
+}
+.error-info a {
+  color: #320000;
+}
+.displaceable {
+  margin-right: 5px;
+  display: inline;
+  position: relative;
+  white-space: nowrap;
+}
